@@ -8,7 +8,8 @@ body{
 
 .container{
   display:flex;
-  justify-content:start;}
+  justify-content:start;
+  align-items:start;}
 
 h1{
   font-size:xx-large;}
