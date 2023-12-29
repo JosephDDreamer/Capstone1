@@ -9,10 +9,10 @@ body{
 .container{
   display:flex;
   justify-content:start;
-  align-items:start;}
+  align-items:center;}
 
 h1{
-  font-size:xx-large;
-  color:blue;}
+  font-size:xxx-large;
+  color:rgb(10, 77, 201);}
 
 
