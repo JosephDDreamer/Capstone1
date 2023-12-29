@@ -7,7 +7,8 @@ body{
   border-radius:50%;}
 
 .container{
-  display:flex;}
+  display:flex;
+  justify-content:start;}
 
 h1{
   font-size:xx-large;}
