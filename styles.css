@@ -13,10 +13,73 @@ body{
 
 h1{
   font-size:xxx-large;
-  color: rgb(10, 77, 201);}
+  color: rgb(37,123,202)}
 
-h2,&starf,&star{
-  color: rgb(10, 77, 201);}
+h2{
+  color: rgb(37,123,202);
+  border-top:1px rgb(37,123,202)solid;
+  padding-top:5px;}
 
+.star{
+    color: rgb(37,123,202);
+    margin-top:none;}
 
+.logo{
+  height:90px;
+  width:180px;
+  margin-bottom:0;
+  object-fit:contain;
+}
 
+.logobox{
+  height:100px;
+  width:200px;
+  border:1px rgb(37,123,202) solid;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-right:5px;
+}
+
+h3{
+  margin-top:0;
+  color:rgb(37,123,202) ;
+  margin-bottom:0;
+  margin-right:15px;
+}
+
+p{
+  margin-bottom:40px;
+}
+
+.par{
+  color:rgb(37,123,202);
+}
+
+.company{
+  display:flex;
+  align-items:start;
+}
+
+.skillscontainer{
+  display:grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.skillbox{
+  margin-bottom:30px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+.skillicon{
+  height:75px;
+  width:75px;
+  object-fit:contain;
+}
+
+.blocker{
+  text-align:justify;
+}
